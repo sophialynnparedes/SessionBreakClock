@@ -1,0 +1,53 @@
+body {
+    background-color: #1e555c;
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+p {
+    font-weight: normal;
+    color: white;
+}
+
+#clockContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+}
+
+#breakLengthControls,
+#sessionLengthControls,
+#lengthControls {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+#timerContainer {
+    margin-top: 20px;
+    width: 80%;
+    border: 8px solid #13353a;
+    border-radius: 50px;
+    width: 280px;
+    height: 175px;
+}
+
+#timerControls {
+    display: flex;
+    flex-direction: row;
+}
